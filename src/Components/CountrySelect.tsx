@@ -70,7 +70,7 @@ function CountrySelect() {
     <MultiSelect options={countries} itemTemplate={countryTemplate} value={selectedCountries}
                  onChange={(e) => setSelectedCountries(e.value)} filter={true} showSelectAll={false}
                  panelHeaderTemplate={header} panelFooterTemplate={footer} className="country-select mt-6"
-                 showClear={true} panelClassName="country-select" ref={multiSelectRef} />
+                 showClear={true} panelClassName="country-select" ref={multiSelectRef} placeholder="Select countries" />
   );
 }
 
