@@ -1,0 +1,54 @@
+.country-select {
+    width: max-content;
+    font-family: CamptonBook;
+    font-style: normal;
+    font-weight: 475;
+    font-size: 16px;
+    line-height: 16px;
+    color: #343434;
+}
+
+.country-select .input-search {
+    border-color: #ECECEC;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}
+
+.country-select .input-search::placeholder {
+    font-family: CamptonBook;
+    font-style: normal;
+    font-weight: 475;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.5px;
+    color: #343434;
+}
+
+.country-select.p-multiselect-panel {
+    background: #FFFFFF;
+    border: 1px solid #E1E3E6;
+    box-shadow: 9px 32px 35px rgba(0, 0, 0, 0.0464653);
+    border-radius: 14px;
+}
+
+.country-select .p-checkbox-box {
+    background: #ECECEC;
+    border-radius: 8px;
+    border: 0
+}
+
+.country-select .p-inputswitch-slider {
+    background: rgba(0, 28, 61, 0.08)
+}
+
+.cs-footer {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #ECECEC;
+}
+
+.cs-footer .p-button {
+    background: #60D09B;
+    border-radius: 50px;
+    border: 0
+}
